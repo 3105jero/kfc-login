@@ -1,0 +1,27 @@
+/* FONDO */
+.login-bg {
+    background: linear-gradient(135deg, #E4002B, #B8001F);
+    min-height: 100vh;
+}
+
+/* CARD */
+.login-card {
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* INPUT FOCUS */
+.form-control:focus {
+    border-color: #E4002B;
+    box-shadow: 0 0 0 0.2rem rgba(228, 0, 43, 0.25);
+}
+
+/* BOTÓN */
+.btn-danger {
+    background-color: #E4002B;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c20024;
+}
