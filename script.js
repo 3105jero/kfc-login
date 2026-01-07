@@ -2,7 +2,7 @@
 VALIDACIÓN DE LOGIN
 ================================ */
 
-var mypassword = "password";
+var mypassword = "1";
 var email = "p@gmail.com";
 
 // Obtener elementos del HTML
@@ -25,6 +25,7 @@ if (button) {
         // Validación de usuario y contraseña
         if (email_user.value === email && password_user.value === mypassword) {
             window.location.href = "./home.html";
+            sessionStorage.setItem("sesion","yes")
         } else {
             alert_danger.classList.remove("d-none");
             alert_danger.innerText = "Usuario o contraseña incorrectos";
